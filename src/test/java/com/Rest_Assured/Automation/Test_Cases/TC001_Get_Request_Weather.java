@@ -23,6 +23,11 @@ public class TC001_Get_Request_Weather extends Test_Base_class
 		End_point_URI = Base_URI + Base_Path;
 		System.out.println("End Point URI : - "+End_point_URI);
 	}
+	@Test
+	public void get_details()
+	{
+		
+	}
 
 	@Test
 	public void get_Weather_deatils()
