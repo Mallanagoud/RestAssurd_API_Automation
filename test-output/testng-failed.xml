@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register">
+        <methods>
+          <include name="set_up"/>
+          <include name="tear_down"/>
+          <include name="Register_Cosumer"/>
+        </methods>
+      </class> <!-- com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
