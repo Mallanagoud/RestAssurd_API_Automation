@@ -1,25 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8111" started-at="2019-12-10T17:49:20Z" finished-at="2019-12-10T17:49:28Z">
+  <suite name="Rest Assured API Test Automation Test Suite" duration-ms="9246" started-at="2019-12-17T15:50:47Z" finished-at="2019-12-17T15:50:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8111" started-at="2019-12-10T17:49:20Z" finished-at="2019-12-10T17:49:28Z">
-      <class name="com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register">
-        <test-method status="PASS" signature="set_up()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register@5e5792a0]" name="set_up" is-config="true" duration-ms="16" started-at="2019-12-10T17:49:20Z" finished-at="2019-12-10T17:49:20Z">
+    <test name="Rest Assured API Test Cases" duration-ms="9246" started-at="2019-12-17T15:50:47Z" finished-at="2019-12-17T15:50:56Z">
+      <class name="com.Rest_Assured.Automation.Test_Cases.TC004_Get_Details_Stores">
+        <test-method status="PASS" signature="getting_store_details()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC004_Get_Details_Stores@57baeedf]" name="getting_store_details" duration-ms="4" started-at="2019-12-17T15:50:56Z" finished-at="2019-12-17T15:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getting_store_details -->
+      </class> <!-- com.Rest_Assured.Automation.Test_Cases.TC004_Get_Details_Stores -->
+      <class name="com.Rest_Assured.Automation.Test_Cases.TC001_Get_Request_Weather">
+        <test-method status="PASS" signature="set_up()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC001_Get_Request_Weather@39c0f4a]" name="set_up" is-config="true" duration-ms="37" started-at="2019-12-17T15:50:47Z" finished-at="2019-12-17T15:50:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set_up -->
-        <test-method status="PASS" signature="Register_Cosumer()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register@5e5792a0]" name="Register_Cosumer" duration-ms="8057" started-at="2019-12-10T17:49:20Z" finished-at="2019-12-10T17:49:28Z">
+        <test-method status="PASS" signature="set_up()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register@1794d431]" name="set_up" is-config="true" duration-ms="4" started-at="2019-12-17T15:50:47Z" finished-at="2019-12-17T15:50:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Register_Cosumer -->
-        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register@5e5792a0]" name="tear_down" is-config="true" duration-ms="0" started-at="2019-12-10T17:49:28Z" finished-at="2019-12-10T17:49:28Z">
+        </test-method> <!-- set_up -->
+        <test-method status="PASS" signature="set_up()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC003_Get_Details_Google_Map@42e26948]" name="set_up" is-config="true" duration-ms="0" started-at="2019-12-17T15:50:47Z" finished-at="2019-12-17T15:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method status="PASS" signature="set_up()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC004_Get_Details_Stores@57baeedf]" name="set_up" is-config="true" duration-ms="1" started-at="2019-12-17T15:50:47Z" finished-at="2019-12-17T15:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method status="PASS" signature="get_Weather_deatils()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC001_Get_Request_Weather@39c0f4a]" name="get_Weather_deatils" duration-ms="4415" started-at="2019-12-17T15:50:47Z" finished-at="2019-12-17T15:50:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Weather_deatils -->
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC001_Get_Request_Weather@39c0f4a]" name="tear_down" is-config="true" duration-ms="1" started-at="2019-12-17T15:50:56Z" finished-at="2019-12-17T15:50:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register@1794d431]" name="tear_down" is-config="true" duration-ms="0" started-at="2019-12-17T15:50:56Z" finished-at="2019-12-17T15:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC003_Get_Details_Google_Map@42e26948]" name="tear_down" is-config="true" duration-ms="0" started-at="2019-12-17T15:50:56Z" finished-at="2019-12-17T15:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC004_Get_Details_Stores@57baeedf]" name="tear_down" is-config="true" duration-ms="0" started-at="2019-12-17T15:50:56Z" finished-at="2019-12-17T15:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- com.Rest_Assured.Automation.Test_Cases.TC001_Get_Request_Weather -->
+      <class name="com.Rest_Assured.Automation.Test_Cases.TC003_Get_Details_Google_Map">
+        <test-method status="PASS" signature="getting_store_details()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC003_Get_Details_Google_Map@42e26948]" name="getting_store_details" duration-ms="17" started-at="2019-12-17T15:50:56Z" finished-at="2019-12-17T15:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getting_store_details -->
+      </class> <!-- com.Rest_Assured.Automation.Test_Cases.TC003_Get_Details_Google_Map -->
+      <class name="com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register">
+        <test-method status="FAIL" signature="Register_Cosumer()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register@1794d431]" name="Register_Cosumer" duration-ms="4684" started-at="2019-12-17T15:50:51Z" finished-at="2019-12-17T15:50:56Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [201] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [201] but found [200]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register.Register_Cosumer(TC002_Post_Request_Register.java:51)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Cosumer -->
       </class> <!-- com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Rest Assured API Test Cases -->
+  </suite> <!-- Rest Assured API Test Automation Test Suite -->
 </testng-results>

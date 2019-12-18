@@ -1,0 +1,4 @@
+com\Rest_Assured\Automation\Test_Cases\TC003_Get_Details_Google_Map.class
+com\Rest_Assured\Automation\Test_Cases\TC002_Post_Request_Register.class
+com\Rest_Assured\Automation\Test_Cases\TC001_Get_Request_Weather.class
+com\Rest_Assured\Automation\Test_Cases\TC004_Get_Details_Stores.class

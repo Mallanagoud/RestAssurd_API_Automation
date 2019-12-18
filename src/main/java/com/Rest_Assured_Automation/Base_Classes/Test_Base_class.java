@@ -18,7 +18,7 @@ public class Test_Base_class extends Test_Util_Class
 		
 		try 
 		{
-			get_stream = new FileInputStream("F:\\Selenium\\Rest_Assurest_Projects\\src\\main\\java\\com\\Rest_Assured_Automation\\config\\Get_config.properties");
+			get_stream = new FileInputStream("F:\\Selenium\\Rest_Assured_Projects\\src\\main\\java\\com\\Rest_Assured_Automation\\config\\Get_config.properties");
 			prop_get.load(get_stream);
 		} 
 		catch (FileNotFoundException e)
