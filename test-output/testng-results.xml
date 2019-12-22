@@ -1,63 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Rest Assured API Test Automation Test Suite" duration-ms="9246" started-at="2019-12-17T15:50:47Z" finished-at="2019-12-17T15:50:56Z">
+  <suite name="Rest Assured API Test Automation Test Suite" duration-ms="10519" started-at="2019-12-22T17:53:50Z" finished-at="2019-12-22T17:54:00Z">
     <groups>
     </groups>
-    <test name="Rest Assured API Test Cases" duration-ms="9246" started-at="2019-12-17T15:50:47Z" finished-at="2019-12-17T15:50:56Z">
-      <class name="com.Rest_Assured.Automation.Test_Cases.TC004_Get_Details_Stores">
-        <test-method status="PASS" signature="getting_store_details()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC004_Get_Details_Stores@57baeedf]" name="getting_store_details" duration-ms="4" started-at="2019-12-17T15:50:56Z" finished-at="2019-12-17T15:50:56Z">
+    <test name="Rest Assured API Test Cases" duration-ms="10519" started-at="2019-12-22T17:53:50Z" finished-at="2019-12-22T17:54:00Z">
+      <class name="com.Rest_Assured.Automation.Test_Cases.TC007_Get_Authontication">
+        <test-method status="PASS" signature="Get_details_Using_AUTH()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC007_Get_Authontication@4dfa3a9d]" name="Get_details_Using_AUTH" duration-ms="639" started-at="2019-12-22T17:53:59Z" finished-at="2019-12-22T17:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_details_Using_AUTH -->
+      </class> <!-- com.Rest_Assured.Automation.Test_Cases.TC007_Get_Authontication -->
+      <class name="com.Rest_Assured.Automation.Test_Cases.TC006_Extracting_all_the_JSON_Response">
+        <test-method status="PASS" signature="Getting_JSON_Response_Validating()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC006_Extracting_all_the_JSON_Response@146ba0ac]" name="Getting_JSON_Response_Validating" duration-ms="1772" started-at="2019-12-22T17:53:58Z" finished-at="2019-12-22T17:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Getting_JSON_Response_Validating -->
+      </class> <!-- com.Rest_Assured.Automation.Test_Cases.TC006_Extracting_all_the_JSON_Response -->
+      <class name="com.Rest_Assured.Automation.Test_Cases.TC003_Get_Details_Google_Map_Multple_Headers">
+        <test-method status="PASS" signature="getting_store_details()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC003_Get_Details_Google_Map_Multple_Headers@204f30ec]" name="getting_store_details" duration-ms="1910" started-at="2019-12-22T17:53:55Z" finished-at="2019-12-22T17:53:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getting_store_details -->
-      </class> <!-- com.Rest_Assured.Automation.Test_Cases.TC004_Get_Details_Stores -->
+      </class> <!-- com.Rest_Assured.Automation.Test_Cases.TC003_Get_Details_Google_Map_Multple_Headers -->
+      <class name="com.Rest_Assured.Automation.Test_Cases.TC004_Get_Details_Stores_Single_Header">
+        <test-method status="PASS" signature="getting_store_details_()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC004_Get_Details_Stores_Single_Header@e25b2fe]" name="getting_store_details_" duration-ms="495" started-at="2019-12-22T17:53:57Z" finished-at="2019-12-22T17:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getting_store_details_ -->
+      </class> <!-- com.Rest_Assured.Automation.Test_Cases.TC004_Get_Details_Stores_Single_Header -->
       <class name="com.Rest_Assured.Automation.Test_Cases.TC001_Get_Request_Weather">
-        <test-method status="PASS" signature="set_up()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC001_Get_Request_Weather@39c0f4a]" name="set_up" is-config="true" duration-ms="37" started-at="2019-12-17T15:50:47Z" finished-at="2019-12-17T15:50:47Z">
+        <test-method status="PASS" signature="set_up()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC001_Get_Request_Weather@4667ae56]" name="set_up" is-config="true" duration-ms="17" started-at="2019-12-22T17:53:50Z" finished-at="2019-12-22T17:53:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set_up -->
-        <test-method status="PASS" signature="set_up()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register@1794d431]" name="set_up" is-config="true" duration-ms="4" started-at="2019-12-17T15:50:47Z" finished-at="2019-12-17T15:50:47Z">
+        <test-method status="PASS" signature="set_up()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register@77cd7a0]" name="set_up" is-config="true" duration-ms="1" started-at="2019-12-22T17:53:50Z" finished-at="2019-12-22T17:53:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set_up -->
-        <test-method status="PASS" signature="set_up()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC003_Get_Details_Google_Map@42e26948]" name="set_up" is-config="true" duration-ms="0" started-at="2019-12-17T15:50:47Z" finished-at="2019-12-17T15:50:47Z">
+        <test-method status="PASS" signature="set_up()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC003_Get_Details_Google_Map_Multple_Headers@204f30ec]" name="set_up" is-config="true" duration-ms="1" started-at="2019-12-22T17:53:50Z" finished-at="2019-12-22T17:53:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set_up -->
-        <test-method status="PASS" signature="set_up()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC004_Get_Details_Stores@57baeedf]" name="set_up" is-config="true" duration-ms="1" started-at="2019-12-17T15:50:47Z" finished-at="2019-12-17T15:50:47Z">
+        <test-method status="PASS" signature="set_up()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC004_Get_Details_Stores_Single_Header@e25b2fe]" name="set_up" is-config="true" duration-ms="1" started-at="2019-12-22T17:53:50Z" finished-at="2019-12-22T17:53:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set_up -->
-        <test-method status="PASS" signature="get_Weather_deatils()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC001_Get_Request_Weather@39c0f4a]" name="get_Weather_deatils" duration-ms="4415" started-at="2019-12-17T15:50:47Z" finished-at="2019-12-17T15:50:51Z">
+        <test-method status="PASS" signature="set_up()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC005_Get_Validaring_JSON_Response@754ba872]" name="set_up" is-config="true" duration-ms="1" started-at="2019-12-22T17:53:50Z" finished-at="2019-12-22T17:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method status="PASS" signature="set_up()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC006_Extracting_all_the_JSON_Response@146ba0ac]" name="set_up" is-config="true" duration-ms="2" started-at="2019-12-22T17:53:50Z" finished-at="2019-12-22T17:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC007_Get_Authontication@4dfa3a9d]" name="setup" is-config="true" duration-ms="1" started-at="2019-12-22T17:53:50Z" finished-at="2019-12-22T17:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC007_Get_Authontication@4dfa3a9d]" name="teardown" is-config="true" duration-ms="1" started-at="2019-12-22T17:53:50Z" finished-at="2019-12-22T17:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="get_Weather_deatils()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC001_Get_Request_Weather@4667ae56]" name="get_Weather_deatils" duration-ms="3946" started-at="2019-12-22T17:53:50Z" finished-at="2019-12-22T17:53:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- get_Weather_deatils -->
-        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC001_Get_Request_Weather@39c0f4a]" name="tear_down" is-config="true" duration-ms="1" started-at="2019-12-17T15:50:56Z" finished-at="2019-12-17T15:50:56Z">
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC001_Get_Request_Weather@4667ae56]" name="tear_down" is-config="true" duration-ms="1" started-at="2019-12-22T17:54:00Z" finished-at="2019-12-22T17:54:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
-        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register@1794d431]" name="tear_down" is-config="true" duration-ms="0" started-at="2019-12-17T15:50:56Z" finished-at="2019-12-17T15:50:56Z">
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC003_Get_Details_Google_Map_Multple_Headers@204f30ec]" name="tear_down" is-config="true" duration-ms="1" started-at="2019-12-22T17:54:00Z" finished-at="2019-12-22T17:54:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
-        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC003_Get_Details_Google_Map@42e26948]" name="tear_down" is-config="true" duration-ms="0" started-at="2019-12-17T15:50:56Z" finished-at="2019-12-17T15:50:56Z">
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register@77cd7a0]" name="tear_down" is-config="true" duration-ms="0" started-at="2019-12-22T17:54:00Z" finished-at="2019-12-22T17:54:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
-        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC004_Get_Details_Stores@57baeedf]" name="tear_down" is-config="true" duration-ms="0" started-at="2019-12-17T15:50:56Z" finished-at="2019-12-17T15:50:56Z">
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC004_Get_Details_Stores_Single_Header@e25b2fe]" name="tear_down" is-config="true" duration-ms="0" started-at="2019-12-22T17:54:00Z" finished-at="2019-12-22T17:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC005_Get_Validaring_JSON_Response@754ba872]" name="tear_down" is-config="true" duration-ms="1" started-at="2019-12-22T17:54:00Z" finished-at="2019-12-22T17:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC006_Extracting_all_the_JSON_Response@146ba0ac]" name="tear_down" is-config="true" duration-ms="1" started-at="2019-12-22T17:54:00Z" finished-at="2019-12-22T17:54:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
       </class> <!-- com.Rest_Assured.Automation.Test_Cases.TC001_Get_Request_Weather -->
-      <class name="com.Rest_Assured.Automation.Test_Cases.TC003_Get_Details_Google_Map">
-        <test-method status="PASS" signature="getting_store_details()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC003_Get_Details_Google_Map@42e26948]" name="getting_store_details" duration-ms="17" started-at="2019-12-17T15:50:56Z" finished-at="2019-12-17T15:50:56Z">
+      <class name="com.Rest_Assured.Automation.Test_Cases.TC005_Get_Validaring_JSON_Response">
+        <test-method status="PASS" signature="Getting_JSON_Response_Validating()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC005_Get_Validaring_JSON_Response@754ba872]" name="Getting_JSON_Response_Validating" duration-ms="661" started-at="2019-12-22T17:53:57Z" finished-at="2019-12-22T17:53:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getting_store_details -->
-      </class> <!-- com.Rest_Assured.Automation.Test_Cases.TC003_Get_Details_Google_Map -->
+        </test-method> <!-- Getting_JSON_Response_Validating -->
+      </class> <!-- com.Rest_Assured.Automation.Test_Cases.TC005_Get_Validaring_JSON_Response -->
       <class name="com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register">
-        <test-method status="FAIL" signature="Register_Cosumer()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register@1794d431]" name="Register_Cosumer" duration-ms="4684" started-at="2019-12-17T15:50:51Z" finished-at="2019-12-17T15:50:56Z">
+        <test-method status="FAIL" signature="Register_Cosumer()[pri:0, instance:com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register@77cd7a0]" name="Register_Cosumer" duration-ms="861" started-at="2019-12-22T17:53:54Z" finished-at="2019-12-22T17:53:55Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [201] but found [200]]]>

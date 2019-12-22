@@ -42,6 +42,6 @@ public class TC001_Get_Request_Weather extends Test_Base_class
 	@AfterTest
 	public void tear_down()
 	{
-       System.out.println("*Received Response Body and Validated*");
+		System.out.println("*End Point URL is taken form the Config.Properties File*");
 	}
 }

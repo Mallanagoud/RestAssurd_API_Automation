@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register">
+      <class name="com.Rest_Assured.Automation.Test_Cases.TC007_Get_Authontication">
         <methods>
-          <include name="set_up"/>
-          <include name="tear_down"/>
-          <include name="Register_Cosumer"/>
+          <include name="setup"/>
+          <include name="Get_details_Using_AUTH"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register -->
+      </class> <!-- com.Rest_Assured.Automation.Test_Cases.TC007_Get_Authontication -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
