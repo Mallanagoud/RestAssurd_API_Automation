@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FreeCRM Application Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.Rest_Assured_Automation.Report_Generation.Extent_Report_Generation" />
+	</listeners>
+	
+	<test name="FreeCRM Test Cases">
+		<classes>
+			<class name="com.Rest_Assured.Automation.Test_Cases.TC001_Get_Request_Weather"></class>
+			<class name="com.Rest_Assured.Automation.Test_Cases.TC002_Post_Request_Register"></class>
+			<class name="com.Rest_Assured.Automation.Test_Cases.TC003_Get_Details_Google_Map_Multple_Headers"></class>
+			<class name="com.Rest_Assured.Automation.Test_Cases.TC004_Get_Details_Stores_Single_Header"></class>
+			<class name="com.Rest_Assured.Automation.Test_Cases.TC005_Get_Validaring_JSON_Response"></class>
+			<class name="com.Rest_Assured.Automation.Test_Cases.TC006_Extracting_all_the_JSON_Response"></class>
+			<class name="com.Rest_Assured.Automation.Test_Cases.TC007_Get_Authontication"></class>
+			<class name="com.Rest_Assured.Automation.Test_Cases.TC008_Get_All_Employees"></class>
+			<class name="com.Rest_Assured.Automation.Test_Cases.TC009_Get_Single_Employee_From_Request.java"></class>
+		</classes>
+	</test>
+</suite>
