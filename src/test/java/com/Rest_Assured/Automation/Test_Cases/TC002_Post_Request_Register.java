@@ -6,6 +6,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import com.Rest_Assured_Automation.Base_Classes.Test_Base_class;
+import com.Rest_Assured_Automation.Util_Classes.Test_Util_Class;
+
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
@@ -48,7 +50,7 @@ public class TC002_Post_Request_Register extends Test_Base_class
 		System.out.println("Response Body : - "+response_body);
 
 		int status_code = response.statusCode();
-		Assert.assertEquals(status_code, Status_code201);
+		Assert.assertEquals(status_code, Test_Util_Class.Status_code201);
 
 		String SuccessCode = response.jsonPath().get("SuccessCode");
 		Assert.assertEquals(SuccessCode, "OPERATION_SUCCESS");

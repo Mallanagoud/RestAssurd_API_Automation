@@ -4,6 +4,8 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import com.Rest_Assured_Automation.Base_Classes.Test_Base_class;
+import com.Rest_Assured_Automation.Util_Classes.Test_Util_Class;
+
 import io.restassured.RestAssured;
 import io.restassured.authentication.PreemptiveBasicAuthScheme;
 import io.restassured.http.Method;
@@ -41,7 +43,7 @@ public class TC007_Get_Authontication extends Test_Base_class
         int status_code = response.getStatusCode();
         System.out.println("Status Code Of the Request : - "+status_code);
         
-        Assert.assertEquals(status_code, Status_code200);
+        Assert.assertEquals(status_code, Test_Util_Class.Status_code200);
 	}
 
 	@BeforeTest

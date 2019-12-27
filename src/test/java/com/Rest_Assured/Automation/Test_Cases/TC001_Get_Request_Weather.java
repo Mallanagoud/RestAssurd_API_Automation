@@ -5,6 +5,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import com.Rest_Assured_Automation.Base_Classes.Test_Base_class;
+import com.Rest_Assured_Automation.Util_Classes.Test_Util_Class;
+
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
@@ -34,7 +36,7 @@ public class TC001_Get_Request_Weather extends Test_Base_class
 		System.out.println("Response Body is : - "+response_body);
 		
 		int status_code = response.getStatusCode();
-		Assert.assertEquals(status_code, Status_code200);
+		Assert.assertEquals(status_code, Test_Util_Class.Status_code200);
 		
 		String statusline = response.getStatusLine();
 		Assert.assertEquals(statusline, "HTTP/1.1 200 OK");

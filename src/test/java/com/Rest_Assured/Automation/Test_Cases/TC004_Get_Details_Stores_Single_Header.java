@@ -6,6 +6,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.Rest_Assured_Automation.Base_Classes.Test_Base_class;
+import com.Rest_Assured_Automation.Util_Classes.Test_Util_Class;
 
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
@@ -38,7 +39,7 @@ public class TC004_Get_Details_Stores_Single_Header extends Test_Base_class
 
 		int status_code = response.getStatusCode();
 		System.out.println("Status Code of the Mi Store Request : -"+status_code);
-		Assert.assertEquals(status_code, Status_code200);
+		Assert.assertEquals(status_code, Test_Util_Class.Status_code200);
 
 		String content_type = response.getHeader("Content-Type");
 		System.out.println("Content-Type of Header : - "+content_type);
